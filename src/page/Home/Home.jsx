@@ -234,6 +234,21 @@ export default function Home() {
             </div>
         </div>
       </section>
+
+      <footer className="bg-footerbg py-11">
+        <div className="container grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1">
+            <div className="flex lg:justify-start md:justify-start justify-center pb-2">
+            <span className="text-base font-bold text-white font-dm-sans">© 2024. All Right Reserved. Created by EltajMammadzada.</span>
+            </div>
+            <div>
+                <ul className="flex gap-8 lg:justify-end md:justify-end justify-center">
+                    <li className="text-base font-bold text-white font-dm-sans">Convenire</li>
+                    <li className="text-base font-bold text-white font-dm-sans">Graecis</li>
+                    <li className="text-base font-bold text-white font-dm-sans">Bonorum</li>
+                </ul>
+            </div>
+        </div>
+      </footer>
     </>
   );
 }
