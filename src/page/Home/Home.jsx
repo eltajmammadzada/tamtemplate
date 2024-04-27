@@ -12,6 +12,9 @@ import Icon7 from "../../assets/icon7.svg";
 import Icon8 from "../../assets/icon8.svg";
 import Icon9 from "../../assets/icon9.svg";
 import Three from "../../assets/3.svg";
+import { TiSocialFacebookCircular } from "react-icons/ti";
+import { TiSocialTwitterCircular } from "react-icons/ti";
+import { TiSocialLinkedinCircular } from "react-icons/ti";
 
 export default function Home() {
   return (
@@ -202,6 +205,33 @@ export default function Home() {
         </div>
         <div className="flex justify-center w-full pt-[64px]">
         <button className="border border-solid border-[#F36B7F] text-[#F36B7F] py-3 px-10 rounded-3xl font-dm-sans font-bold text-base">All work</button>
+        </div>
+      </section>
+
+      <section className="py-[90px] bg-subscribebg">
+        <div className="container grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-6">
+            <div>
+                <h3 className="text-2xl leading-[48px] font-dm-sans font-bold text-white pb-1">Dolorem habemus</h3>
+                <p  className="text-base font-dm-sans font-normal text-Text_White_50% pb-10">Mandamus et, eius ponderum at nec cum lorem.</p>
+                <div className="flex gap-3 lg:flex-row md:flex-row flex-col">
+                <input type="text" className="h-12 rounded-3xl min-w-[230px] lg:w-[270px] md:w-[260px] w-full pl-3" placeholder="Enter Email" />
+                <div>
+                <button className="bg-Primary_2 text-[#2B2B2B] py-3 px-7 rounded-3xl font-dm-sans font-bold text-base">
+                Subscribe
+          </button>
+                </div>
+                </div>
+            </div>
+
+            <div>
+                <h3 className="text-2xl leading-[48px] font-dm-sans font-bold text-white pb-1">Definitiones</h3>
+                <p className="text-base font-dm-sans font-normal text-Text_White_50% pb-10">Ut est fastidii iracundia at quo scripserit tantas.</p>
+                <div className="flex gap-2">
+                <TiSocialFacebookCircular className="w-12 h-12 text-white" />
+                <TiSocialTwitterCircular className="w-12 h-12 text-white" />
+                <TiSocialLinkedinCircular className="w-12 h-12 text-white" />
+                </div>
+            </div>
         </div>
       </section>
     </>
